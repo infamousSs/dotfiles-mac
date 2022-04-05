@@ -1,3 +1,4 @@
 alias clean="reset"
 alias rs="clear"
+alias sublime="open -a sublime\ text"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
