@@ -1,4 +1,46 @@
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+
+### Simple function
+cd()  { builtin cd "$@"; ls -G; }
+
+f() { open -a Finder "$@" }
+
+w() { cd ~/Work/"$@" }
+
+ow() { f ~/Work/"$@" }
+
+###
+
+
+alias e="exit"
+
 alias clean="reset"
 alias rs="clear"
 alias sublime="open -a sublime\ text"
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+alias cd..='cd ../'
+alias ..='cd ../'
+alias ...='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../' 
+alias .6='cd ../../../../../../'
+alias ~="cd ~"
+
+alias dl="cd ~/Downloads"
+alias lib="cd $RUNTIME_LIB"
+
+alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
+
+alias ls='ls -G'        
+alias la='ls -AF'       
+alias ll='ls -al'
+alias l1='ls -1'
+
+
+alias hideDesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showDesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+alias myIp='curl -s http://whatismyip.akamai.com' 
+

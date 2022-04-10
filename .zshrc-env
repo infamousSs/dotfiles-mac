@@ -1,0 +1,5 @@
+export RUNTIME_LIB="$HOME/.runtime-lib"
+export SCRIPT_DIR="$HOME/.scripts"
+
+export KAFKA_HOME="$RUNTIME_LIB/kafka_2.13-3.1.0"
+export REDIS_HOME="$RUNTIME_LIB/redis-6.2.6/src"
