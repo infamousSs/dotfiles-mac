@@ -1,17 +1,17 @@
-  generatePassword() {
-  if [ $1 ] ; then
-     openssl rand -base64 $1
-  else 
-     openssl rand -base64 8
-  fi
+generatePassword() {
+    if [ $1 ] ; then
+        openssl rand -base64 $1
+    else 
+        openssl rand -base64 8
+    fi
 }
 
 decodeBase64() {
-  echo "$1" | base64 --decode ; echo
+    echo "$1" | base64 --decode ; echo
 }        
 
 encodeBase64() {
-  echo "$1" | base64  ; echo
+    echo "$1" | base64  ; echo
 }      
 
 showUsingPort() {

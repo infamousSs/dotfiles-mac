@@ -14,5 +14,3 @@ if [ -f ~/.zshrc-func ]; then
     source ~/.zshrc-func
 fi
 
-
-

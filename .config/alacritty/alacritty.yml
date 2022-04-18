@@ -103,3 +103,7 @@ cursor:
     blinking: off
     blink-interval: 750
     unfocused_hollow: true
+
+key_bindings:
+  - { key: Space,  mods: Alt ,        mode: Vi, action: ScrollToBottom          }
+  - { key: Space,  mods: Alt ,                 action: ToggleViMode            }

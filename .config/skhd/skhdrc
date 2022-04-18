@@ -27,13 +27,13 @@ shift + cmd - l : yabai -m window --warp east
 shift + alt - 0 : yabai -m space --balance
 
 # make floating window fill screen (not working)
-shift + alt - up     : yabai -m window --grid 1:1:0:0:1:1
+#shift + alt - up     : yabai -m window --grid 1:1:0:0:1:1
 
 # make floating window fill left-half of screen (not working)
-shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
+# shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
 
 # make floating window fill right-half of screen (not working)
-shift + alt - right  : yabai -m window --grid 1:2:1:0:1:1
+#shift + alt - right  : yabai -m window --grid 1:2:1:0:1:1
 
 # create desktop, move window and follow focus - uses jq for parsing json (brew install jq) 
 shift + cmd - n : yabai -m space --create && \
@@ -102,16 +102,16 @@ shift + ctrl - w : yabai -m window --move rel:0:-20
 shift + ctrl - d : yabai -m window --move rel:20:0
 
 # increase window size
-shift + alt - a : yabai -m window --resize left:-20:0
-shift + alt - s : yabai -m window --resize bottom:0:20
-shift + alt - w : yabai -m window --resize top:0:-20
-shift + alt - d : yabai -m window --resize right:20:0
+#shift + alt - a : yabai -m window --resize left:-20:0
+#shift + alt - s : yabai -m window --resize bottom:0:20
+#shift + alt - w : yabai -m window --resize top:0:-20
+#shift + alt - d : yabai -m window --resize right:20:0
 
 # decrease window size
-shift + cmd - a : yabai -m window --resize left:20:0
-shift + cmd - s : yabai -m window --resize bottom:0:-20
-shift + cmd - w : yabai -m window --resize top:0:20
-shift + cmd - d : yabai -m window --resize right:-20:0
+#shift + cmd - a : yabai -m window --resize left:20:0
+#shift + cmd - s : yabai -m window --resize bottom:0:-20
+#shift + cmd - w : yabai -m window --resize top:0:20
+#shift + cmd - d : yabai -m window --resize right:-20:0
 
 # set insertion point in focused container
 ctrl + alt - h : yabai -m window --insert west

@@ -43,4 +43,7 @@ alias hideDesktop="defaults write com.apple.finder CreateDesktop -bool false && 
 alias showDesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 alias myIp='curl -s http://whatismyip.akamai.com' 
+alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
+alias pcp="rsync -r --progress"
 
+alias fm="ranger"
