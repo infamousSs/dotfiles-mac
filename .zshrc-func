@@ -76,3 +76,7 @@ startZookeeper() {
 startKafka() {
 	$KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
 }
+
+remoteFxAws() {
+  ssh -i ~/Work/_fxswap/fx-swap-deployment/config/FXSwap.pem ubuntu@54.255.137.50
+}

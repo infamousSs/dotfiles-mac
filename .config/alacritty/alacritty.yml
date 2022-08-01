@@ -16,14 +16,14 @@ window.dynamic_title: true
 # Font Customization
 font:
   normal:
-    family: Hack Nerd Font 
+    family: ComicMono NF
     style: Regular
   bold:
-    family: Hack Nerd Font 
-    style: Bold
+    family: ComicMono NF
+    style: Bold 
   italic:
-    family: Hack Nerd Font 
-    style: Italic
+    family: ComicMono NF 
+    style: Regular 
   size: 24
   offset:
     x: 0

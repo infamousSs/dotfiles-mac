@@ -1,0 +1,21 @@
+"" Source your .vimrc
+source ~/.vimrc
+
+let mapleader = " " " map leader to space
+
+set clipboard+=ideaput
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitright
+set splitbelow
+
+noremap <leader>] :vsp<CR>
+noremap <leader>[ :sp<CR>
